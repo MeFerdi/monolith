@@ -128,7 +128,7 @@ google:
   token_file: ~/.monolith/google_token.json
 
 notion:
-  api_key: secret_xxxxxxxxxxxxxxxxxxxx
+  api_key: NOTION_API_KEY
 ```
 
 | Key | Default | Description |
