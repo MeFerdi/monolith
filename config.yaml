@@ -1,0 +1,18 @@
+# ~/.monolith/config.yaml
+
+port: 7474
+index_path: ~/.monolith/index
+sync_interval: 15m
+
+local:
+  paths:
+    - ~/Documents
+    - ~/Notes
+    - ~/Downloads
+
+google:
+  credentials_file: ~/.monolith/google_credentials.json
+  token_file: ~/.monolith/google_token.json
+
+notion:
+  api_key: NOTION_API_KEY
