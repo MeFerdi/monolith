@@ -53,7 +53,7 @@ func (i *BleveIndex) Search(_ context.Context, q Query) ([]SearchResult, error) 
 
 	res, err := i.b.Search(req)
 	if err != nil {
-		return nil, fmt.Errorf("bleve serach: %w", err)
+		return nil, fmt.Errorf("bleve search: %w", err)
 	}
 	out := make([]SearchResult, 0, len(res.Hits))
 	for _, hit := range res.Hits {
